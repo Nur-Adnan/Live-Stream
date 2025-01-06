@@ -3,7 +3,7 @@
 Welcome to **Gamehub**, a fully functional live-streaming platform built using **Next.js 14**. Designed to empower streamers and engage viewers, Gamehub provides an immersive experience with advanced features and a modern design.
 
 ## 🚀 Live Demo
-[Live Demo Coming Soon]
+[Live Demo](https://live-stream-production.up.railway.app/)
 
 ---
 
@@ -111,7 +111,10 @@ http://localhost:3000
 ## 🌈 Screenshots
 
 - **Home page with live stream recommendations.**
+![game-hub-adnab](https://github.com/user-attachments/assets/57fc8848-8408-4f39-afc2-2950dcd36ec3)
+
 - **Streamer dashboard with management tools.**
+![game-hub-adnan](https://github.com/user-attachments/assets/704f0526-ae84-4612-8234-259f3928bfe3)
 
 ---
 
@@ -143,9 +146,3 @@ For questions or feedback, reach out via GitHub or connect with me on:
 
 ## 🌟 Acknowledgments
 Special thanks to the open-source community for the tools and inspiration to build this project.
-
-
-
-
-![game-hub-adnab](https://github.com/user-attachments/assets/57fc8848-8408-4f39-afc2-2950dcd36ec3)
-![game-hub-adnan](https://github.com/user-attachments/assets/704f0526-ae84-4612-8234-259f3928bfe3)
