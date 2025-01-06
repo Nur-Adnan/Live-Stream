@@ -3,7 +3,7 @@
 Welcome to **Gamehub**, a fully functional live-streaming platform built using **Next.js 14**. Designed to empower streamers and engage viewers, Gamehub provides an immersive experience with advanced features and a modern design.
 
 ## 🚀 Live Demo
-[Live Demo Coming Soon]
+[Live Demo](https://live-stream-production.up.railway.app/)
 
 ---
 
