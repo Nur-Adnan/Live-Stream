@@ -40,15 +40,15 @@ Welcome to **Gamehub**, a fully functional live-streaming platform built using *
 
 ## 🛠️ Tech Stack
 ### Frontend:
-- [Next.js 14](https://nextjs.org/) - Modern React Framework
-- [Socket.IO](https://socket.io/) - Real-time chat functionality
-- [Tailwind CSS](https://tailwindcss.com/) - Responsive and customizable UI
+- [Next.js 14] - Modern React Framework
+- [Socket.IO] - Real-time chat functionality
+- [Tailwind CSS] - Responsive and customizable UI
 
 ### Backend:
-- [Node.js](https://nodejs.org/) - Server-side environment
-- [Express.js](https://expressjs.com/) - Backend framework
-- [PostgreSQL](https://www.postgresql.org/) - Database for structured data
-- [Neon](https://neon.tech/) - Serverless PostgreSQL hosting
+- [Node.js] - Server-side environment
+- [Express.js] - Backend framework
+- [PostgreSQL] - Database for structured data
+- [Neon] - Serverless PostgreSQL hosting
 
 ![game-hub-adnab](https://github.com/user-attachments/assets/57fc8848-8408-4f39-afc2-2950dcd36ec3)
 ![game-hub-adnan](https://github.com/user-attachments/assets/704f0526-ae84-4612-8234-259f3928bfe3)
