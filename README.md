@@ -3,7 +3,7 @@
 Welcome to **Gamehub**, a fully functional live-streaming platform built using **Next.js 14**. Designed to empower streamers and engage viewers, Gamehub provides an immersive experience with advanced features and a modern design.
 
 ## 🚀 Live Demo
-[Live Demo](https://live-stream-production.up.railway.app/)
+[Live Demo](https://live-stream-production.up.railway.app/) 
 
 ---
 
@@ -72,10 +72,25 @@ Welcome to **Gamehub**, a fully functional live-streaming platform built using *
 #### Create a `.env` file with the following:
 ```env
 NEXT_PUBLIC_API_URL=http://localhost:3000/api
-DATABASE_URL=your-neon-database-url
+DATABASE_URL=your-database-url
 GOOGLE_CLIENT_ID=your-google-client-id
 GOOGLE_CLIENT_SECRET=your-google-client-secret
 RTMP_URL=rtmp://your-server-ip:1935/live
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your-clerk-publishable-key
+CLERK_SECRET_KEY=your-clerk-secret-key
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/
+NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
+CLERK_WEBHOOK_SECRET=your-clerk-webhook-secret
+LIVEKIT_API_URL=your-livekit-api-url
+LIVEKIT_API_KEY=your-livekit-api-key
+LIVEKIT_API_SECRET=your-livekit-api-secret
+NEXT_PUBLIC_LIVEKIT_WS_URL=your-livekit-ws-url
+UPLOADTHING_SECRET=your-uploadthing-secret
+UPLOADTHING_APP_ID=your-uploadthing-app-id
+NEXTAUTH_SECRET=your-nextauth-secret
+NEXTAUTH_URL=http://localhost:3000
 ```
 
 #### Run database migrations:
@@ -97,9 +112,14 @@ http://localhost:3000
 
 ## 📂 Project Structure
 ```plaintext
+🗁 /actions          # Server-side actions for handling requests
+🗁 /app              # Application-level configurations and components
 🗁 /components       # Reusable React components
-🗁 /pages            # Next.js pages and routes
+🗁 /hooks            # Custom React hooks
+🗁 /lib              # Shared libraries and utilities
+🗁 /prisma           # Prisma schema and database configurations
 🗁 /public           # Static assets
+🗁 /store            # State management and stores
 🗁 /styles           # CSS and Tailwind styles
 🗁 /utils            # Utility functions
 🗁 /api              # Backend API endpoints
@@ -111,10 +131,9 @@ http://localhost:3000
 ## 🌈 Screenshots
 
 - **Home page with live stream recommendations.**
-![game-hub-adnab](https://github.com/user-attachments/assets/57fc8848-8408-4f39-afc2-2950dcd36ec3)
-
+  ![game-hub-adnab](https://github.com/user-attachments/assets/57fc8848-8408-4f39-afc2-2950dcd36ec3)
 - **Streamer dashboard with management tools.**
-![game-hub-adnan](https://github.com/user-attachments/assets/704f0526-ae84-4612-8234-259f3928bfe3)
+  ![game-hub-adnan](https://github.com/user-attachments/assets/704f0526-ae84-4612-8234-259f3928bfe3)
 
 ---
 
@@ -146,3 +165,5 @@ For questions or feedback, reach out via GitHub or connect with me on:
 
 ## 🌟 Acknowledgments
 Special thanks to the open-source community for the tools and inspiration to build this project.
+
+
